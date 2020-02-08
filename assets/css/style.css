@@ -12,11 +12,11 @@ h1{
 }
 
 .headerWrap{
+    text-align: center;
     padding: 0px;
-    height:100%;
-    margin:10px;
-    position:absolute;
-    top:40px;
+    margin:0px;
+    position:relative;
+    bottom:5px;
 }
 
 #headerTeal {
