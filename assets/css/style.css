@@ -21,7 +21,7 @@ h1{
 
 #headerTeal {
     color:#4aaaa5;
-    padding:20px;
+    padding:20px 0px;
 }
 
 #headerTealBox {
@@ -64,6 +64,8 @@ p {
 
 body{
     background-image: url("../images/gray_jean.png");
+    width:100%;
+    height:auto;
 }
 
 #menu {
@@ -82,17 +84,19 @@ body{
     background-color: #eeeeee;
     height:5px;
     width:920px;
-    position: relative;
-    left:20px;
+    margin:auto;
+    /* position: relative;
+    left:20px; */
 }
 
 #contentAreaBody {
     border:1px solid #dddddd;
     width:960px;
-    height: auto;
     background-color: white;
-    margin:130px auto;
-    padding: 0px 0px 20px;
+    margin: 0px auto;
+    padding: 0px 20px 20px;
+    position: relative;
+    top: 150px;
 }
 
 header {
@@ -160,8 +164,9 @@ footer {
 
 form {
     margin:auto;
-    position:relative;
-    left:20px;
+    width: 910px;
+    /* position:relative;
+    left:20px; */
     font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
